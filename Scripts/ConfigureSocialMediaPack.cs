@@ -6,7 +6,7 @@ public class ConfigureSocialMediaPack : MonoBehaviour
 {
     public static ConfigureSocialMediaPack Instance;
 
-    public string TwitterProfile;
+    public string TwitterProfile; //edit this in the inspector
     [TextArea(0, 20)]
     [Tooltip("Insert comment here.")]
     public string TwitterMessage;
