@@ -20,6 +20,13 @@ public class TwitterTweetJSBC : MonoBehaviour
 
     void TaskOnClick()
     {
-        Application.OpenURL("https://twitter.com/intent/tweet?text=" + System.Uri.EscapeUriString(config.TwitterMessage + (config.TwitterProfile == null || config.TwitterProfile == "" ? "" :(config.TwitterProfile[0] == '@' ? config.TwitterProfile:"@"+config.TwitterProfile)) + " @playCAT2020"));
+        try
+        {
+            Application.OpenURL("https://twitter.com/intent/tweet?text=" + System.Uri.EscapeUriString(config.TwitterMessage + (config.TwitterProfile == null || config.TwitterProfile == "" ? "" : (config.TwitterProfile[0] == '@' ? config.TwitterProfile : "@" + config.TwitterProfile)) + " @playCAT2020"));
+        }
+        catch
+        {
+            Debug.LogWarning("You need to start the scene with GameObject \"ConfigureSocialMediaPack\" in your scene for Tweets to work.");
+        }
     }
 }
