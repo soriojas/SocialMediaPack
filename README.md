@@ -11,7 +11,7 @@ Import the package.
 
 ![](https://i.imgur.com/dLpsPwB.png)
 
-Place `ConfigureSocialMediaPack` in your first scene.
+Place the prefab `ConfigureSocialMediaPack` into your first scene.
 
 ![](https://i.imgur.com/ldfRV1J.png)
 
