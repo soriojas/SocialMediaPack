@@ -5,4 +5,4 @@ A twitter button for your game, made exclusively for 2019-2020 CAT408 & CAT420.
 
 ![Picture of Twitter button](https://pbs.twimg.com/media/EQ3eGZWUUAARWJv?format=png&name=900x900)
 
-![](https://files.slack.com/files-pri/T0A1QU5AN-FTS8DA341/image.png)
+![](https://trello.com/c/7ePuSm97/5-imagepng)
